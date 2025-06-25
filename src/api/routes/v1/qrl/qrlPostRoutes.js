@@ -12,7 +12,7 @@ const router = express.Router();
 
 const addressPattern = /^Q[0-9a-fA-F]{78}$/;
 
-/* 
+/*
 QRL endpoints
 
 Complete:
@@ -103,7 +103,6 @@ In Progress:
  *                   description: Detailed error message
  *                   example: "Failed to fetch balance"
  */
-
 
 
 router.post('/qrl-balance', async (req, res) => {

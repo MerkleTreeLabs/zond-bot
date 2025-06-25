@@ -10,14 +10,8 @@
 	--snapshot=false \
 	--gcmode=archive \
 	--keystore=/home/fr1t2/ZOND/keystore \
-<<<<<<< Updated upstream
-	--datadir=/home/fr1t2/ZOND/gzond/gzonddata \
-	--history.state=0 \
-	--signer=/home/fr1t2/ZOND/clef/clef.ipc
-=======
 	--history.state=0 \
 	--allow-insecure-unlock \
 	--unlock="0x20d20b8026b8f02540246f58120ddaaf35aecd9b" \
 	--password=/home/fr1t2/ZOND/keystore/password.txt
 #	--signer=/home/fr1t2/ZOND/clef/clef.ipc
->>>>>>> Stashed changes

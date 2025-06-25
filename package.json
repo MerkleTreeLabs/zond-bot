@@ -12,6 +12,11 @@
     "release": "npm run changelog",
     "start": "concurrently \"node src/bots/discord/index.js\" \"node src/api/server.js\"",
     "live": "concurrently \"nodemon src/bots/discord/index.js\" \"nodemon src/api/server.js\"",
+    "create-db": "node src/scripts/database/createDatabase.js",
+    "delete-db": "node src/scripts/database/deleteDatabase.js",
+    "create-tables": "node src/scripts/database/createTables.js",
+    "new-test-data": "node src/scripts/database/populateTestData.js",
+    "drop-all-tables": "node src/scripts/database/dropAllTables.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "node src/bots/discord/deploy/deploy-commands.js"
   },
